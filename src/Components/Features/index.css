@@ -1,0 +1,110 @@
+.features-container{
+    background-color:#ffffff;
+    width:95%;
+    margin-inline:auto;
+    border-radius:11px;
+    padding-block:25px;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+}
+.features-card{
+    width:75%;
+    margin-inline:auto;
+}
+.features-card h1{
+    text-align: center;
+    color: #242E49;
+    font-size: 35px;
+    margin-bottom:55px;
+}
+.features-block{
+    display: flex;
+    /* height:355px; */
+    justify-content:space-around;
+    margin-bottom:75px;
+}
+.features-block h6{
+    color:#242E49;
+    font-size:11px;
+}
+.features-block img{
+    width:35%;
+}
+.features-block .content{
+    width:55%;
+}
+.features-block .content .feature{
+    color: #3D4966;
+    border: 1px solid #3D4966;
+    font-size:7px;
+    padding:5px 7px;
+    margin-right:3px;
+    border-radius:3px;
+    width:max-content;
+}
+.features-block .content h2{
+    font-size:25px;
+    color: #242E49;
+    margin-bottom:0px;
+}
+.features-block .content p {
+    opacity:0.7;
+    font-size:11px;
+    width:55%;
+    line-height:1.5em;
+}
+.checker {
+    display: flex;
+    align-items: center;
+}
+.checker :first-child {
+    color: #242E49;
+}
+.checker p{
+    margin-left:5px;
+    font-size: 13px;
+    font-weight:600;
+}
+.features-block button{
+    background-color:#0F67FE;
+    border: 0px;
+    color: #ffffff;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    padding:11px 25px;
+    color: #ffffff;
+    border-radius:5px;
+    font-size:11px;
+    margin-top: 25px;
+}
+.features-block button :last-child {
+    margin-bottom:-1px;
+    margin-inline:5px;
+}
+.speed{
+    width:15%;
+}
+.accuracy{
+    width:55%;
+}
+#file{
+    width:65%;
+}
+@media screen and (max-width:786px) {
+    .features-block{
+        flex-direction: column;
+        margin-block:25px;
+    }
+    .speed{
+        width:25%;
+    }
+    .feature-img-card{
+        width:100%;
+        margin-top: 25px;
+    }
+    .features-block img{
+        order:-1;
+        width:100%;
+    }
+    .features-block .content{
+        width:100%;
+    }
+}

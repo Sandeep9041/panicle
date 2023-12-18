@@ -1,0 +1,113 @@
+.footer-bg{
+    width: 95%;
+    margin-inline:auto;
+    background-image:url("https://res.cloudinary.com/dxsppjwqc/image/upload/v1702630284/Logo_Mark_welndn.png");
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-size: cover;
+    background-color:#242E49;
+    color: #ffffff;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    border-radius:11px;
+    padding-top:55px;
+    padding-bottom:7px;
+}
+.footer-content{
+    font-size:11px;
+    text-align: center;
+    line-height:1.5em;;
+    width:65%;
+}
+.footer-logo{
+    width:55px;
+    height:55px;
+    margin-bottom:7px;
+}
+.footer-bg ul{
+    padding:0px;
+    display: flex;
+    align-items:center;
+}
+@media screen and (max-width:786px) {
+    .footer-bg ul{
+        flex-direction:column;
+    }    
+}
+.footer-bg li {
+    list-style: none;
+    margin-inline:15px;
+}
+.footer-bg li h5{
+    font-size:15px;
+    opacity:0.7;
+}
+.active {
+    display: flex;
+    flex-direction: column;
+}
+.active h5{
+    margin-bottom:5px;
+    margin-top:15px;
+    opacity: 1 !important;;
+}
+.active-square {
+    margin-top:3px;
+    align-self: center;
+    width:7px;
+    height:7px;  
+}
+.contact-icons > *{
+font-size:19px;
+margin-inline:11px;
+}
+.copyright-card{
+    display: flex;
+    font-size:11px;
+    margin-top:55px;
+    align-items: center;
+}
+@media screen and (max-width:786px) {
+    .copyright-card{
+        flex-direction:column;
+    }    
+}
+.copyright-square{
+    margin-inline:15px;
+    width:7px;
+    height:7px;  
+    opacity:0.7;
+}
+@media screen and (max-width:786px) {
+    .copyright-square{
+        display:none
+    }    
+}
+.footer-btns {
+    width:100%;
+    margin-block:25px;
+    display: flex;
+    justify-content: space-around;
+    margin-top:55px;   
+}
+.footer-btns > * {
+    background-color: #0F67FE;
+    border: 0px;
+    width:48%;
+    padding:12px ;
+    border-radius:7px;
+    color: #ffffff;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-size:11px;
+    font-weight:600;
+}
+@media screen and (max-width:786px) {
+    .footer-btns{
+        flex-direction:column;
+        align-items: center;
+    }
+    .footer-btns > *{
+        width:90%;
+        margin-bottom:11px;
+    }    
+}

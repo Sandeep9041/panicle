@@ -1,0 +1,103 @@
+.app-bg {
+    background-color:#0F67FE;
+    width:95%;
+    margin-inline:auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom:75px;
+    border-radius:11px;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+}
+.app-img-card{
+    width:65%;
+}
+.app-bg img {
+    height:75%;
+}
+.app-content-card{
+    display: flex;
+    flex-direction: column;
+    align-self:left;
+    width:35%;
+}
+.app-content {
+    margin-right: 0px;
+}
+@media screen and (max-width:1200px) {
+    .app-img-card{
+        width:75%;
+        display: flex;
+        align-items: flex-end;
+        margin-bottom: 0px;
+    }
+    .app-bg img{
+        width:100%;
+    }
+    .app-content-card{
+        width:55%;
+        max-width:355px;
+    }
+    .app-bg h1{
+        font-size:larger;
+    }
+}
+
+.download-card{
+    display: flex;
+    align-items: center;
+    color: #ffffff;
+    font-size: 15px;
+}
+.download-square{
+    font-size:9px;
+    opacity:0.7;
+    margin-right:5px;
+}
+.app-bg h1 {
+    color: #ffffff;
+    margin-top:0px;
+}
+.app-bg button{
+    color: #ffffff;
+    background-color: transparent;
+    border:1px solid #ffffff;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    padding:9px 15px;
+    margin-right:15px;
+    border-radius:7px;
+    font-size:11px;
+}
+.download-icon{
+    margin-inline:5px;
+    margin-bottom:-1px;
+}
+@media screen and (max-width:786px) {
+    .app-bg {
+        flex-direction: column;
+    }
+    .app-img-card{
+        order : 8;
+        margin-bottom: 0px;
+        display: flex;
+        align-items: flex-end;
+        width:100%;
+    }
+    .app-img-card img{
+        width: 100%;
+    }
+    .app-content-card{
+        width:50%;
+        margin-bottom: 15px;
+    }
+    .app-bg h1 {
+        font-size:medium;
+    }
+    .app-bg button{
+        margin-bottom:5px;
+        width:100%;
+    }
+    .download-card{
+        font-size:11px;
+    }    
+}
